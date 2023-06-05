@@ -14,13 +14,11 @@ For example, for integers 3 and 5,
 > 
 > AND operation        OR operation        XOR operation
 >
-> 00000011             00000011            00000011
+>       00000011             00000011            00000011
 > 
-> & 00000101           | 00000101          ^ 00000101
->
-> ________             ________            ________
-> 
-> 00000001  = 1        00000111  = 7       00000110  = 6
+>     & 00000101           | 00000101          ^ 00000101
+>       --------             --------            --------
+>       00000001  = 1        00000111  = 7       00000110  = 6
 
 You will be given an integer , and a threshold, i1nnik$. Print the results of the and, or and exclusive or comparisons on separate lines, in that order.
 
